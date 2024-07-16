@@ -1,4 +1,4 @@
-package com.medicine.backend.dto;
+package com.medicine.backend.medicine.dto;
 
 import lombok.Getter;
 import lombok.Setter;

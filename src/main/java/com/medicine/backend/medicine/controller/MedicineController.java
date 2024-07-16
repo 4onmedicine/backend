@@ -1,6 +1,6 @@
-package com.medicine.backend.controller;
+package com.medicine.backend.medicine.controller;
 
-import com.medicine.backend.dto.MedicineInfo;
+import com.medicine.backend.medicine.dto.MedicineInfo;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

@@ -2,6 +2,9 @@ package com.medicine.backend.medicine.controller;
 
 import com.medicine.backend.medicine.dto.MedicineDetail;
 import com.medicine.backend.medicine.dto.MedicineInfo;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -19,8 +22,12 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 
+@Tag(name = "Medicine API", description = "약 정보 API")
 @RestController
 public class MedicineController {
+    @Operation(summary = "약 정보 조회(검색 자동 완성)", description = "약 정보를 조회하는 API")
+    @Parameter(name = "search", description = "약 이름", required = false)
+    @Parameter(name = "efcy", description = "증상", required = false)
     @GetMapping("/home")
     public List<MedicineInfo> getMedicineInfo(
             @RequestParam(name = "search", required = false) String name,

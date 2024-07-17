@@ -5,10 +5,14 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class MedicineInfo {
+public class MedicineDetail {
+    private int itemSeq;
     private String itemName;
+    private String atpnQesitm;
     private String efcyQesitm;
     private String useMethodQesitm;
     private String intrcQesitm;
-    private String itemSeq;
+    private String seQesitm;
+    private String depositMethodQesitm;
+    private String itemImage;
 }

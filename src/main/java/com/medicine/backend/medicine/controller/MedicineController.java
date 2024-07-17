@@ -25,7 +25,7 @@ import java.util.List;
 @Tag(name = "Medicine API", description = "약 정보 API")
 @RestController
 public class MedicineController {
-    @Operation(summary = "약 정보 조회(검색 자동 완성)", description = "약 정보를 조회하는 API")
+    @Operation(summary = "약 정보 조회(키워드 검색 리스트)", description = "약 정보를 조회하는 API")
     @Parameter(name = "search", description = "약 이름", required = false)
     @Parameter(name = "efcy", description = "증상", required = false)
     @GetMapping("/home")
@@ -97,6 +97,8 @@ public class MedicineController {
         return result;
     }
 
+    @Operation(summary = "약 상세 정보 조회", description = "약 상세 정보를 조회하는 API")
+    @Parameter(name = "itemSeq", description = "약 일련번호", required = true)
     @GetMapping("/medicine/{itemSeq}")
     public MedicineDetail getMedicineDetail(@PathVariable int itemSeq) {
         MedicineDetail result = null;

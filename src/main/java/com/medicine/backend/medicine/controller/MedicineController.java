@@ -88,7 +88,7 @@ public class MedicineController {
                 dto.setEfcyQesitm(efcyQesitmList.item(i).getTextContent());
                 dto.setUseMethodQesitm(useMethodQesitmList.item(i).getTextContent());
                 dto.setIntrcQesitm(intrcQesitmList.item(i).getTextContent());
-                dto.setItemSeq(itemSeqList.item(i).getTextContent());
+                dto.setItemSeq(Integer.parseInt(itemSeqList.item(i).getTextContent()));
                 result.add(dto);
             }
         } catch (Exception e) {

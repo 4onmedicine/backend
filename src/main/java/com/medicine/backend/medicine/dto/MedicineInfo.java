@@ -10,5 +10,5 @@ public class MedicineInfo {
     private String efcyQesitm;
     private String useMethodQesitm;
     private String intrcQesitm;
-    private String itemSeq;
+    private int itemSeq;
 }

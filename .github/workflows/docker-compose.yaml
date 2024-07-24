@@ -1,0 +1,32 @@
+version: '3'
+services:
+
+  server:
+    container_name: server
+    image: jihoonyc/medicine-server
+    expose:
+      - 8080
+    ports:
+      - 8080:8080
+    restart: "always"
+
+  nginx:
+    container_name: nginx
+    image: jihoonyc/medicine-nginx
+    restart: "always"
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./data/certbot/conf:/etc/letsencrypt
+      - ./data/certbot/www:/var/www/certbot
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - server
+
+  certbot:
+    image: certbot/certbot
+    restart: unless-stopped
+    volumes:
+      - ./data/certbot/conf:/etc/letsencrypt
+      - ./data/certbot/www:/var/www/certbot

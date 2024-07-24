@@ -35,6 +35,18 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew clean build -x test
 
+      # Fix DNS issue
+      - name: Fix DNS issue
+        run: |
+          echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+          echo "nameserver 8.8.4.4" | sudo tee -a /etc/resolv.conf > /dev/null
+          sudo systemctl restart systemd-resolved
+
+      # Reset network interface
+      - name: Reset network interface
+        run: |
+          sudo systemctl restart networking
+
       ## 서버 이미지 빌드 및 도커허브에 push
       - name: server docker build and push
         run: |
@@ -49,7 +61,7 @@ jobs:
 
       ## docker compose up
       - name: executing remote ssh commands using password
-        uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@v0.1.6
         with:
           host: ${{ secrets.HOST_ID }}
           username: ubuntu

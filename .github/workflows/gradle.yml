@@ -42,11 +42,6 @@ jobs:
           echo "nameserver 8.8.4.4" | sudo tee -a /etc/resolv.conf > /dev/null
           sudo systemctl restart systemd-resolved
 
-      # Reset network interface
-      - name: Reset network interface
-        run: |
-          sudo systemctl restart networking
-
       ## 서버 이미지 빌드 및 도커허브에 push
       - name: server docker build and push
         run: |

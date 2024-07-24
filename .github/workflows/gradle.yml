@@ -35,13 +35,6 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew clean build -x test
 
-      # Fix DNS issue
-      - name: Fix DNS issue
-        run: |
-          echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
-          echo "nameserver 8.8.4.4" | sudo tee -a /etc/resolv.conf > /dev/null
-          sudo systemctl restart systemd-resolved
-
       ## 서버 이미지 빌드 및 도커허브에 push
       - name: server docker build and push
         run: |

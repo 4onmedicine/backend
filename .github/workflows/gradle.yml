@@ -48,6 +48,7 @@ jobs:
           host: ${{ secrets.HOST_ID }}
           username: ubuntu
           key: ${{ secrets.PRIVATE_KEY }}
+          port: ${{ secrets.EC2_SSH_PORT }}
           script: |
             sudo docker rm -f $(docker ps -qa)
             sudo docker pull ${{ secrets.DOCKER_REPO }}/medicine-server

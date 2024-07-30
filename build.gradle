@@ -37,3 +37,8 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+// jar 파일 2개 생성 방지
+jar {
+    enabled = false
+}

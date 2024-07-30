@@ -35,7 +35,7 @@ import java.util.stream.Collectors;
 public class FlaskController {
     @PostMapping("/send-image")
     @ResponseBody
-    public String sendImageToFlask(@RequestParam("image") MultipartFile image) throws IOException {
+    public List<MedicineDetail> sendImageToFlask(@RequestParam("image") MultipartFile image) throws IOException {
         RestTemplate restTemplate = new RestTemplate();
 //        String serverUrl = "http://175.123.252.36:8686/upload_flask";
         String serverUrl = "http://4onprescription.kro.kr/upload_flask";
@@ -176,8 +176,8 @@ public class FlaskController {
             resultMedicineList.add(medicineDetail);
         }
 
-        // Flask 서버로부터 받은 응답 반환
-        return response.getBody();
+        // 최종 약 정보 리스트 반환
+        return resultMedicineList;
     }
 
     @PostMapping(value = "/chat", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)

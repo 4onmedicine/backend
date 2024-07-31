@@ -13,10 +13,13 @@ import java.util.List;
 public class SwaggerConfig {
     @Bean
     public OpenAPI openAPI() {
+        Server server = new Server();
+        server.setUrl("https://4onmserver.kro.kr/");
+
         return new OpenAPI()
                 .components(new Components())
                 .info(apiInfo())
-                .servers(List.of(apiServer()));
+                .servers(List.of(server));
     }
 
     private Info apiInfo() {
@@ -24,11 +27,5 @@ public class SwaggerConfig {
                 .title("Medicine API Documentation")
                 .description("springdoc Swagger UI 테스트")
                 .version("1.0.0");
-    }
-
-    private Server apiServer() {
-        Server server = new Server();
-        server.setUrl("https://4onmserver.kro.kr/");
-        return server;
     }
 }

@@ -32,7 +32,7 @@ public class FlaskController {
     public String sendImageToFlask(@RequestParam("image") MultipartFile image) throws IOException {
         RestTemplate restTemplate = new RestTemplate();
 //        String serverUrl = "http://175.123.252.36:8686/upload_flask";
-        String serverUrl = "http://4onprescription.kro.kr/upload_flask";
+        String serverUrl = "https://4onprescription.kro.kr/upload_flask";
 
         // 이미지를 바이트 배열로 변환
         byte[] imageBytes = image.getBytes();
@@ -183,7 +183,7 @@ public class FlaskController {
     public String medicineChat(@RequestBody ChatRequest chatRequest) {
         RestTemplate restTemplate = new RestTemplate();
 //        String serverUrl = "http://175.123.252.36:8686/chat";
-        String serverUrl = "http://4onprescription.kro.kr/chat";
+        String serverUrl = "https://4onprescription.kro.kr/chat";
 
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);

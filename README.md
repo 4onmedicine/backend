@@ -2,7 +2,7 @@
 - 4 온 약 어때? 팀의 Backend Server
 <div align="center">
   <h1> 💊 의약품 간편 검색 서비스, 4온 약 어때?  </h1>
-  <img width="1450" alt="Title image" src="https://github.com/user-attachments/assets/ee7378e3-97a4-4bfc-8652-ca4e9b04c1ac">
+  <img width="75%" alt="Title image" src="https://github.com/user-attachments/assets/ee7378e3-97a4-4bfc-8652-ca4e9b04c1ac">
 </div>
 <p align="center">
   <strong>

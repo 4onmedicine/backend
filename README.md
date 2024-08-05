@@ -34,9 +34,9 @@
 |<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/></a>| <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/></a><br><img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"> | <img src="https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon Web Services&logoColor=white"/></a><br><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"><br><img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white"/></a>
 
 ## 📌 Repository
-Frontend: <a href="https://github.com/hollydrug/front">https://github.com/hollydrug/front</a><br>
-Backend(Spring): <a href="https://github.com/hollydrug/backend">https://github.com/hollydrug/backend</a><br>
-Backend(Flask): <a href="https://github.com/hollydrug/backend2">https://github.com/hollydrug/backend2</a><br>
+- Frontend: <a href="https://github.com/hollydrug/front">https://github.com/hollydrug/front</a><br>
+- Backend(Spring): <a href="https://github.com/hollydrug/backend">https://github.com/hollydrug/backend</a><br>
+- Backend(Flask): <a href="https://github.com/hollydrug/backend2">https://github.com/hollydrug/backend2</a><br>
 
 ## 📂 Directory Structure
 ### Backend

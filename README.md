@@ -13,8 +13,9 @@
 
 ## 🔍 Introduction
 ### 기획 배경 및 서비스 특징
-<img width="50%" alt="기획 배경 및 서비스 특징" src="https://github.com/user-attachments/assets/e3518789-0869-4b1b-b1b2-28eadacc104a">
+<img width="83%" alt="기획 배경 및 서비스 특징" src="https://github.com/user-attachments/assets/e3518789-0869-4b1b-b1b2-28eadacc104a">
 
+<br>
 
 ## 🖥️ Demo
 <img width="850" alt="의약품 검색" src="https://github.com/user-attachments/assets/1e357fe8-a39c-4641-9f78-0902aaf98705"><br>
@@ -23,20 +24,26 @@
 
 <img width="850" alt="GPT와 대화" src="https://github.com/user-attachments/assets/33c2e52b-92cb-48ee-975c-18189637298d">
 
-
+<br>
 
 ## 📜 Architecture
 <img width="863" alt="architecture" src="https://github.com/user-attachments/assets/dab985ba-68f0-4ee2-bb69-57b5e5b57ac5">
 
+<br>
+
 ## 💡 Tech Stack
-|Frontend|                                                         Backend                                                          |                                                                                                                                                                                          Deployment                                                                                                                                                                                           |
-|:------:|:------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/></a>| <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/></a><br><img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"> | <img src="https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon Web Services&logoColor=white"/></a><br><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"><br><img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white"/></a>
+|Frontend|                                                         Backend                                                          |                                                                                                                                                                                          Deployment                                                                                                                                                                                           |Other|
+|:------:|:------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------:|
+|<img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/></a>| <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/></a><br><img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"> | <img src="https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white"/></a><br><img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon Web Services&logoColor=white"/></a><br><img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"><br><img src="https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white"/><br><img src="https://img.shields.io/badge/Github Actions-2088FF?style=flat-square&logo=Github Actions&logoColor=white"/></a>|<img src="https://img.shields.io/badge/Swagger-85EA2E?style=flat-square&logo=Swagger&logoColor=white"/></a>
+
+<br>
 
 ## 📌 Repository
 - Frontend: <a href="https://github.com/hollydrug/front">https://github.com/hollydrug/front</a><br>
 - Backend(Spring): <a href="https://github.com/hollydrug/backend">https://github.com/hollydrug/backend</a><br>
 - Backend(Flask): <a href="https://github.com/hollydrug/backend2">https://github.com/hollydrug/backend2</a><br>
+
+<br>
 
 ## 📂 Directory Structure
 ### Backend
@@ -84,6 +91,15 @@
 ```
 <br>
 
+## 🤝 Branch Convetion
+
+### Git-Flow 전략
+- 반드시 "develop"에서 뻗어나와 develop으로 "merge" 되어야한다.
+- `main` : 실제 배포 CI/CD용 branch
+- `develop` : 개발 CI/CD용 branch
+
+<br>
+
 ## ⚠️ Commit Convention
 
 ```
@@ -94,8 +110,6 @@
 - 커밋 내용은 명사로 끝나며 마침표를 사용하지 않는다.
 
 ### 태그
-
-- 이모지는 선택에 따라 활용한다.
 
 | 태그       | 설명                      |
 |:---------|:------------------------|
@@ -110,9 +124,10 @@
 | Rename   | 파일 이름 변경        |
 | Move   | 프로젝트 내 파일이나 코드의 이동        |
 
+<br>
 
 ## 🦁 Team
 |                                                           [한태동](https://github.com/HANTAEDONG)                                                           |                           [한지우](https://github.com/huzan2)                           |                           [최지훈](https://github.com/cjh-19)                           |                         [이정현](https://github.com/LEEJH1029)                          |                                                      [장원준](https://github.com/jangwonjun)                                                      |
 |:----------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------:|
 | <img width = "300" src ="https://avatars.githubusercontent.com/u/132195232?s=96&v=4"> | <img width = "300" src ="https://avatars.githubusercontent.com/u/95648841?s=96&v=4"> | <img width = "300" src ="https://avatars.githubusercontent.com/u/66457014?s=96&v=4"> | <img width = "300" src ="https://avatars.githubusercontent.com/u/67615226?s=96&v=4"> | <img width = "300" src ="https://avatars.githubusercontent.com/u/41234293?s=96&v=4"> |
-|                                                                Frontend Developer                                                                 |                                  Frontend Developer                                  |                                  Backend Developer                                   |                                  Backend Developer                                   |                                                               Backend Developer                                                                |
+|                                                                Frontend Developer                                                                 |                                  Frontend Developer                                  |                                  Backend Developer, CI/CD                                   |                                  Backend Developer                                   |                                                               Backend Developer                                                                |

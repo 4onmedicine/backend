@@ -13,7 +13,7 @@
 
 ## 🔍 Introduction
 ### 기획 배경 및 서비스 특징
-<img width="83%" alt="기획 배경 및 서비스 특징" src="https://github.com/user-attachments/assets/e3518789-0869-4b1b-b1b2-28eadacc104a">
+<img width="85%" alt="기획 배경 및 서비스 특징" src="https://github.com/user-attachments/assets/e3518789-0869-4b1b-b1b2-28eadacc104a">
 
 <br>
 
@@ -27,7 +27,7 @@
 <br>
 
 ## 📜 Architecture
-<img width="863" alt="architecture" src="https://github.com/user-attachments/assets/dab985ba-68f0-4ee2-bb69-57b5e5b57ac5">
+<img width="871" alt="architecture" src="https://github.com/user-attachments/assets/1da6e20d-b99d-44da-9940-5b962efe4add">
 
 <br>
 

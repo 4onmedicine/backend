@@ -17,13 +17,10 @@
 
 
 ## 🖥️ Demo
-### 의약품 검색
-<img width="850" alt="의약품 검색" src="https://github.com/user-attachments/assets/1e357fe8-a39c-4641-9f78-0902aaf98705">
+<img width="850" alt="의약품 검색" src="https://github.com/user-attachments/assets/1e357fe8-a39c-4641-9f78-0902aaf98705"><br>
 
-### 처방전 이미지 검색
-<img width="850" alt="처방전 이미지 검색" src="https://github.com/user-attachments/assets/e5a8c774-1512-41bc-a770-7e6a3f7a415c">
+<img width="850" alt="처방전 이미지 검색" src="https://github.com/user-attachments/assets/e5a8c774-1512-41bc-a770-7e6a3f7a415c"><br>
 
-### GPT와 대화
 <img width="850" alt="GPT와 대화" src="https://github.com/user-attachments/assets/33c2e52b-92cb-48ee-975c-18189637298d">
 
 
